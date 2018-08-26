@@ -1,0 +1,51 @@
+.usertip {
+    position: relative;
+    display: inline-block;
+}
+
+/*USER SECTION*/
+.usertip-box{font-size:11px;height:200px;width:200px;}
+.usertip-box{text-transform:uppercase;font-weight:bold;}
+.usertip_image{padding-right:15px;}
+.usertip_text{margin-bottom:10px;font-size:11px}
+
+.usertip-box .block{
+    border: solid 1px #B3C2C9;
+    border-bottom: none;
+    min-width: 200px;
+    padding: 10px;
+}
+.usertip-box .block .content_counts {
+    margin: -10px;
+    list-style: none;
+    padding: 0;
+}
+.usertip-box .block .content_counts  li {
+    border-bottom: solid 1px #B3C2C9;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.usertip-box .block .content_counts  li  a {
+    color: #68809B;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    height: 24px;
+    line-height: 24px;
+    padding: 4px 10px;
+}
+.usertip-box .block .content_counts a:hover {
+    background: #E1EBEF;
+}
+.usertip-box .block .content_counts  li  a .counter {
+    display: block;
+    overflow: hidden;
+    height: 24px;
+    line-height: 24px;
+    color: #34495E;
+    float: right;
+    padding: 0 6px;
+    font-size: 12px;
+}
+
